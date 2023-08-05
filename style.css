@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Montserrat&family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(45deg,rgb(202, 55, 202), rgb(47, 94, 205));
+}
+
+.calculator{
+    border: 6px solid rgb(10, 10, 12);;
+    padding: 20px;
+    border-radius: 20px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(197, 42, 42, 0.9);
+
+}
+
+input{
+    text-align: right;
+    cursor: pointer;
+    color: aliceblue;
+    width: 320px;
+    border:  rgb(11, 11, 10);
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.3);
+    font-size: 40px;
+    
+}
+
+input::placeholder{
+    color: rgb(237, 241, 246);
+    background: transparent;
+    padding: 6px;
+    margin: 0.50px;
+    box-shadow: 0px 3px 15px rgb(233, 241, 234, 0.3);
+
+}
+
+button{
+
+    background: transparent;
+    color: aliceblue;
+    font-size: 20px;
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.EqualBtn{
+    background-color: rgb(5, 227, 76);
+    color: aliceblue;
+}
+
+.operator{
+    color: rgb(26, 216, 58);
+    font-size: 25px;
+
+}
+
+.button{
+    background-color: rgb(46, 46, 46);
+}
+
+
